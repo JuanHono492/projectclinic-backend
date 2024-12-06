@@ -1,0 +1,27 @@
+{
+  "name": "projectartefact-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@jsreport/jsreport-chrome-pdf": "^4.1.0",
+    "@jsreport/jsreport-handlebars": "^4.0.1",
+    "@xmldom/xmldom": "^0.9.5",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsreport": "^4.7.0",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.11.4",
+    "projectartefact-backend": "file:",
+    "sequelize": "^6.37.5"
+  }
+}
